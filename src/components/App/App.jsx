@@ -1,4 +1,4 @@
-// import axios from 'axios';
+
 import { Cast } from 'components/Cast/Cast';
 import { Reviwes } from 'components/Reviwes/Reviwes';
 import { Movies } from 'pages/Movies/Movies';
@@ -7,9 +7,6 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import { Home } from '../../pages/Home/Home';
 
 export const App = () => {
-  //   const data = axios.get().then(data => {
-  //     console.log(data.data.results);
-  //   });
 
   return (
     <div>
